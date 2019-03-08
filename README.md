@@ -3,4 +3,5 @@ linux general staff and sysadmin
 
 ## topics
 
-* [gitssh](git/gitPush_ssh.md)
+* [gitSsh](git/gitPush_ssh.md)
+* [gitHttps](git/gitPush_https.md)
