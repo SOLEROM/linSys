@@ -1,20 +1,27 @@
-#LocalMachine
+# LocalMachine
+
+generate keys
 
 ```
 ssh-keygen -t rsa -b 4096 -C <(0)ACCOUNT>@gmail.com
 <(1)pubFile / (2)passphrase>
+```
+add the keys
 
-ssh-add <(1)pubFile>
+```
+eval "$(ssh-agent -s)"
+ssh-add <(1)PrivateKEY> 
 ```
 
-#GitHubServer
+# GitHubServer
 
 ```
 setting->deployKeys
- ->add->paste->[v]allow-write-access
+ ->add->paste-<<(1)PUBLIC_KEY>>
+   ->[v]allow-write-access
 ```
 
-#LocalMachine
+# LocalMachine
 
 ```
 git clone <repo>  //<repo>:USE SSH option
