@@ -1,8 +1,9 @@
 # linSys
 linux general staff and sysadmin
 
-## topics
+# topics
 
+## Git
 * [basic Config](git/basiConfig.md)
 * [basic Usage](git/basicUsage.md)
 * [gitSsh](git/gitPush_ssh.md)
