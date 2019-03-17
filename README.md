@@ -8,3 +8,7 @@ linux general staff and sysadmin
 * [basic Usage](git/basicUsage.md)
 * [gitSsh](git/gitPush_ssh.md)
 * [gitHttps](git/gitPush_https.md)
+
+
+## VI
+* [lineNumbers](viIDE/lineNumbers.md)
