@@ -14,13 +14,13 @@ pathogen.vim
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 ```
 
-add to ~/.vimrc
+## vimrc
 
 ```
-"add pathogen
+"==================================plugin:nerdtree====================================================
+"enable pathogen"
 execute pathogen#infect()
-"add NERDTree toogle with CTRL+O
-map <C-o> :NERDTreeToggle<CR>
+map <C-o> :NERDTreeToggle<CR>		"NERDTree toogle with CTRL+O"
 ```
 
 

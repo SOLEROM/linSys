@@ -2,9 +2,8 @@
 
 ```
 "==================================LINE-NUMBERS=======================================================
-"display numebr on load
-set number
-set numberwidth=3
+set number		"display numebr on load"
+set numberwidth=3	"set width column for numbers"
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 "F3 to toggle number display
 noremap <F3> :set invnumber<CR>
