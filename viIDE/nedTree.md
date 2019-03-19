@@ -20,7 +20,7 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 "==================================plugin:nerdtree====================================================
 "enable pathogen"
 execute pathogen#infect()
-map <C-o> :NERDTreeToggle<CR>		"NERDTree toogle with CTRL+O"
+map <F4> :NERDTreeToggle<CR>		"NERDTree toogle with CTRL+O"
 ```
 
 
