@@ -1,5 +1,5 @@
 # linSys
-linux general staff and sysadmin
+* linux general staff and sysadmin
 
 # topics
 
