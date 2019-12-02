@@ -15,6 +15,8 @@ ssh-add <(1)PrivateKEY>
 
 # GitHubServer
 
+* add to the main git server to be used in all repos
+
 ```
 setting->deployKeys
  ->add->paste-<<(1)PUBLIC_KEY>>
@@ -23,6 +25,8 @@ setting->deployKeys
 
 # LocalMachine
 
+* clone
+
 ```
 git clone <repo>  //<repo>:USE SSH option
 git clone git@github.com:<(3)USER>/<(3)GIT-NAME>.git
@@ -30,7 +34,7 @@ git clone git@github.com:SOLEROM/test1.git
 ```
 
 
-* add files
+* commit
 
 ```
 git add c
