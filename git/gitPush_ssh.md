@@ -13,6 +13,26 @@ eval "$(ssh-agent -s)"
 ssh-add <(1)PrivateKEY> 
 ```
 
+* persistent
+
+```
+~/.ssh/config
+=====================
+AddKeysToAgent yes
+
+
+# Github.com
+Host github.com
+  Preferredauthentications publickey
+  IdentityFile <PATH-TO>gitKey_private_github
+
+# Private GitLab instance
+Host <LOCAL-IP>
+  Preferredauthentications publickey
+  IdentityFile <PATH-TO>/gitKey_private_gitlab
+```
+
+
 # GitHubServer
 
 * add to the main git server to be used in all repos
