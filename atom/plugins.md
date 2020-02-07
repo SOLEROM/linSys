@@ -3,6 +3,10 @@
 ## editor
 * https://atom.io/packages/minimap
 
+## todo/tasks
+* https://atom.io/packages/tasks
+
+
 ## terminal
 * https://atom.io/packages/termrk
 
