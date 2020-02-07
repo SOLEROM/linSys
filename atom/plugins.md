@@ -2,6 +2,7 @@
 
 ## editor
 * https://atom.io/packages/minimap
+* https://atom.io/packages/markdown-writer
 
 ## todo/tasks
 * https://atom.io/packages/tasks
