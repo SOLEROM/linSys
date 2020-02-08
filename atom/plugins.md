@@ -10,6 +10,18 @@
 
 * https://atom.io/packages/autocomplete  (ctrl + space)
 
+* https://atom.io/packages/cursor-history  
+`````
+## cursor-history
+'atom-workspace':
+  'ctrl-i': 'cursor-history:next'
+  'ctrl-o': 'cursor-history:prev'
+  'ctrl-u': 'cursor-history:next-within-editor'
+  'ctrl-y': 'cursor-history:prev-within-editor'
+```
+
+
+
 ## spell
 * https://atom.io/packages/spell-check  (ctrl+shift+:)
 
@@ -24,12 +36,25 @@ en_US.UTF-8
 
 ```
 
+## navigation
+* https://github.com/t9md/atom-open-this  (shift+z)
+
+
+```
+'atom-workspace atom-text-editor:not([mini])':
+  'shift-z': 'open-this:here'
+  'shift-x': 'open-this:split-right'
+```
+
+
+
+
 ## todo/tasks
 * https://atom.io/packages/tasks
 
 
 ## terminal
-* https://atom.io/packages/termrk
+* https://atom.io/packages/termrk  (alt-space)
 
 ```
 use: alt-space: toggle terminal panel
@@ -45,14 +70,32 @@ may be used in ubuntu need to remap
 * https://atom.io/packages/remote-ssh
 
 ## projects
-* https://atom.io/packages/project-manager
+* https://atom.io/packages/project-manager  (ctrl+escape)
 
+```
+keymap.cson
+===========
+'.platform-linux':
+  'ctrl-escape': 'project-manager:list-projects'
+```
+* https://atom.io/packages/project-viewer ???????
 
 # programming language
 
 ## python
 * https://atom.io/packages/autocomplete-python
 * kite https://help.kite.com/article/60-using-the-atom-plugin
+
+* https://atom.io/packages/python-tools
+
+
+```
+ctrl-alt-u	python-tools:show-usages
+ctrl-alt-g	python-tools:goto-definition		
+ctrl-alt-e	python-tools:select-all-string
+```
+
+
 
 ## ide
 * https://atom.io/packages/ide-cpp
