@@ -26,3 +26,32 @@ Options:
 
 
 ```
+
+
+## install
+
+
+```
+├── Atom-Bash-Snippets
+├── atom-clock
+├── atom-shortcuts
+├── autocomplete
+├── autocomplete-bash-builtins
+├── autocomplete-python
+├── click-link
+├── cursor-history
+├── git-log
+├── highlight-selected
+├── ide-cpp
+├── kite
+├── markdown-writer
+├── minimap
+├── open-bash-git
+├── open-this
+├── project-manager
+├── project-viewer
+├── python-tools
+├── Remote-SSH
+├── tasks
+└── Termrk
+```

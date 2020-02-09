@@ -1,0 +1,12 @@
+## The default scope for markdown in atom is .source.gfm
+## use the ${1} to put the coursere and tab to jump next
+'.source.gfm':
+  'insert-code-general':
+    'prefix': 'cc'
+    'body': '\n```\n${1}\n```\n\n${2}'
+  'insert-code-bash':
+    'prefix': 'bb'
+    'body': '```Bash\n${1}\n```'
+  'insert-code-file':
+    'prefix': 'ff'
+    'body': '```\n${1}\n=================={2}\n${3}\n```'

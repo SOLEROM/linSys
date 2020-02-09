@@ -1,0 +1,15 @@
+## select project keymap
+'.platform-linux':
+  'ctrl-escape': 'project-manager:list-projects'
+
+## navigate to file under curser
+'atom-workspace atom-text-editor:not([mini])':
+  'shift-z': 'open-this:here'
+  'shift-x': 'open-this:split-right'
+
+## cursor-history
+'atom-workspace':
+  'ctrl-i': 'cursor-history:next'
+  'ctrl-o': 'cursor-history:prev'
+  'ctrl-u': 'cursor-history:next-within-editor'
+  'ctrl-y': 'cursor-history:prev-within-editor'
