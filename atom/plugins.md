@@ -11,7 +11,8 @@
 * https://atom.io/packages/autocomplete  (ctrl + space)
 
 * https://atom.io/packages/cursor-history  
-`````
+
+```
 ## cursor-history
 'atom-workspace':
   'ctrl-i': 'cursor-history:next'
@@ -20,7 +21,11 @@
   'ctrl-y': 'cursor-history:prev-within-editor'
 ```
 
+## tabs
+* https://atom.io/packages/maximize-panes  (ctrl+shift+enter)
 
+## search
+* https://atom.io/packages/atom-search-everywhere
 
 ## spell
 * https://atom.io/packages/spell-check  (ctrl+shift+:)
@@ -46,7 +51,8 @@ en_US.UTF-8
   'shift-x': 'open-this:split-right'
 ```
 
-
+## pdf
+* https://atom.io/packages/pdf-view
 
 
 ## todo/tasks
