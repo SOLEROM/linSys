@@ -9,3 +9,8 @@ info -a -p $(udevadm info -q path -n /dev/ttyUSB1)
 ```
 udevadm info --export-db
 ```
+
+
+```
+sudo udevadm control --reload-rules
+```

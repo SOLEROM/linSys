@@ -5,3 +5,10 @@
 
 
 * plugins path : ~/.atom/packages/
+
+
+//TODO: add project manager list
+
+
+## pages
+* ./plugins.md

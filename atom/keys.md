@@ -25,6 +25,18 @@ markdown
 ctrl+shipt+m    => show markdown
 ```
 
+## lines
+
+
+```
+duplicate line  (shift+ctrl+D)
+remove line    (shift+ctrl+K)
+move lines     (ctrl+keyUP/DOWN)
+
+
+```
+
+
 ## override
 
 ```
