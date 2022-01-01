@@ -12,7 +12,11 @@
 folderPrefixName=$1
 folderPrefixNum=$2
 
-singleScript="./pocketStichPANO_single.sh"
+
+myPath=$(readlink -f $0)
+myDir=`dirname $myPath`
+singleScript="$myDir/pano_single.sh"
+
 
 
 rm -rf ./panos
