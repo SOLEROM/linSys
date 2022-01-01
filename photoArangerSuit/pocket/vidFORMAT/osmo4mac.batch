@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#one
+# ffmpeg -i ref3_osmo.mp4 -c:v libx264 -crf 16 -g 1 -pix_fmt yuvj420p ref3_osmo_mac_2.mp4
+
+
+BASE_DIR=$1
+OUTPUT_DIR=$2
+FILES=$(ls $BASE_DIR | grep .MP4)
+
+for FILE in $FILES
+do
+    ffmpeg -i $BASE_DIR/$FILE -c:v libx264 -crf 16 -g 1 -pix_fmt yuvj420p $OUTPUT_DIR/$FILE 
+    sleep 2
+done
+
