@@ -52,11 +52,11 @@ pathInput=$1
 allInputs=$@
 mapFile=.map
 ## if emply
-if [ $# == 0 ];then
+if [[ $# == 0 ]]; then
   pathInput="."
 fi
 ## no map use regular
-if [ ! -f "$pathInput/$mapFile" ]; then
+if [[ ! -f "$pathInput/$mapFile" ]]; then
   ls -alF $allInputs
 else
   lsmap
