@@ -6,11 +6,12 @@
 
 BASE_DIR=$1
 OUTPUT_DIR=$2
+CRF=$3
 FILES=$(ls $BASE_DIR | grep .MP4)
 
 for FILE in $FILES
 do
-    ffmpeg -i $BASE_DIR/$FILE -c:v libx264 -crf 16 -g 1 -pix_fmt yuvj420p $OUTPUT_DIR/$FILE 
+    ffmpeg -i $BASE_DIR/$FILE -c:v libx264 -crf $CRF -g 1 -pix_fmt yuvj420p $OUTPUT_DIR/$FILE
     sleep 2
 done
 
